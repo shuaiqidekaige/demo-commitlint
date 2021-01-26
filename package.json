@@ -6,16 +6,17 @@
   "scripts": {
     "test": "echo lint your code",
     "git:add": "git add .",
-    "commit": "cz"
+    "git:commit": "cz",
+    "git:push": "git push origin master"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "commitiquette": "^1.0.8",
     "commitizen": "^4.2.3",
-    "commitlint": "^11.0.0",
     "husky": "^4.3.8"
   },
   "husky": {
