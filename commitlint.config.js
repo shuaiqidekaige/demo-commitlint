@@ -9,7 +9,6 @@ module.exports = {
 				'feat',
 				'fix',
         'style',
-        'zzz'
 			],
 		],
   }
