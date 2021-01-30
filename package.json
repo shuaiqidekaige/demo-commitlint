@@ -7,8 +7,9 @@
     "test": "echo lint your code",
     "git:add": "git add .",
     "git:commit": "cz",
-    "git:push": "git push origin master",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+    "git:push": "git push -u origin master",
+    "changelog:help": "conventional-changelog --help",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 -a"
   },
   "keywords": [],
   "author": "",
