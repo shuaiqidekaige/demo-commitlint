@@ -4,6 +4,7 @@
 ### Bug Fixes
 
 * 新增commitlint,commitzen,husky ([8513eee](https://github.com/shuaiqidekaige/demo-commitlint/commit/8513eee553488ed707f3c9eb0f7da01374f19e6f))
+* csk 123 ([41f76fc](https://github.com/shuaiqidekaige/demo-commitlint/commit/41f76fcd7d7d8cce7291c7d7125a45a795a2387f))
 
 
 ### Documentation
