@@ -1,4 +1,4 @@
-# 1.0.0 (2021-01-31)
+## 1.0.1 (2021-01-31)
 
 
 ### Bug Fixes
@@ -15,6 +15,7 @@
 ### Features
 
 * 新增a.js ([e828383](https://github.com/shuaiqidekaige/demo-commitlint/commit/e828383dde09e08f3f4a993f0bd5bd6379c4f28f))
+* 新增b.js ([f3793f0](https://github.com/shuaiqidekaige/demo-commitlint/commit/f3793f0abd845046b1bb35a05a8640f462066e03))
 
 
 ### BREAKING CHANGES

@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo lint your code",
     "git:add": "git add .",
-    "git:commit": "cz",
     "git:push": "git push -u origin master",
     "changelog:help": "conventional-changelog --help",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
@@ -17,8 +16,6 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "commitiquette": "^1.0.8",
-    "commitizen": "^4.2.3",
     "conventional-changelog-cli": "^2.1.1",
     "husky": "^4.3.8"
   },
