@@ -1,6 +1,6 @@
 {
   "name": "demo-commitlint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,8 @@
     "git:add": "git add .",
     "git:push": "git push -u origin master",
     "changelog:help": "conventional-changelog --help",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+    "changelog": "conventional-changelog -p simple -i CHANGELOG.md -s -r 0",
+    "release": "release-it"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +18,8 @@
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "conventional-changelog-cli": "^2.1.1",
-    "husky": "^4.3.8"
+    "husky": "^4.3.8",
+    "release-it": "^14.4.1"
   },
   "husky": {
     "hooks": {
@@ -29,5 +31,9 @@
     "commitizen": {
       "path": "commitiquette"
     }
+  },
+  "changelogConfig": {
+    "authorName": true,
+    "authorEmail": true
   }
 }
